@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.button {
+		width: fit-content;
+		padding: theme('padding.2');
+		font-size: theme('fontWeight.semibold');
+	}
+	.button:hover {
+		text-decoration: underline;
+	}
+}
